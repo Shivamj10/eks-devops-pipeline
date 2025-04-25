@@ -1,0 +1,97 @@
+.
+|___.git
+| |___COMMIT_EDITMSG
+| |___config
+| |___description
+| |___HEAD
+| |___hooks
+| | |___applypatch-msg.sample
+| | |___commit-msg.sample
+| | |___fsmonitor-watchman.sample
+| | |___post-update.sample
+| | |___pre-applypatch.sample
+| | |___pre-commit.sample
+| | |___pre-merge-commit.sample
+| | |___pre-push.sample
+| | |___pre-rebase.sample
+| | |___pre-receive.sample
+| | |___prepare-commit-msg.sample
+| | |___push-to-checkout.sample
+| | |___update.sample
+| |___index
+| |___info
+| | |___exclude
+| |___logs
+| | |___HEAD
+| | |___refs
+| | | |___heads
+| | | | |___main
+| | | |___remotes
+| | | | |___origin
+| | | | | |___HEAD
+| | | | | |___main
+| |___objects
+| | |___01
+| | | |___3ce977aea4bb65002de6529e8ce6a1636b23bd
+| | |___06
+| | | |___2b6f32693b228d628f35547110f8a1dac5ff44
+| | |___07
+| | | |___599ef9a28b6780b6f4002ca3ab6337e85addb9
+| | |___0a
+| | | |___098b99c215750543595f915083fb88ad0336dd
+| | |___19
+| | | |___b4af30e1e208bf263cd9f62badc36601f2d409
+| | |___3f
+| | | |___51503a756a06d103bafcc6b88da0a9a5ce163b
+| | |___40
+| | | |___f6fef13717e8dbc91850d30ab17a750d8d086f
+| | |___66
+| | | |___10ad1d87d7f1f95c439c0becc2c5656d6cc312
+| | |___73
+| | | |___1dd1e25fb9729d75b9c6f7107b167f0e4c02b5
+| | |___76
+| | | |___98e7a2c65d87cb3a72e8fd30bb4b0c7f0609f7
+| | |___88
+| | | |___8567e667dd91faa81ad7524e80ed64a9efb9a1
+| | |___a8
+| | | |___d2b671ff00e224561774ea42cd02999e7b8431
+| | |___ac
+| | | |___1ddd07d7e91386d644508a1cf4c3406cb3b826
+| | |___e6
+| | | |___9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+| | |___e7
+| | | |___0e0a1287057772cfe432becea1646b13b9d8fb
+| | |___fc
+| | | |___ef4f0fe45615549e66d4812bebfc2502787341
+| | |___info
+| | |___pack
+| | | |___pack-05c85fa762333aa281f3543ffb736f80dcf12b64.idx
+| | | |___pack-05c85fa762333aa281f3543ffb736f80dcf12b64.pack
+| |___packed-refs
+| |___refs
+| | |___heads
+| | | |___main
+| | |___remotes
+| | | |___origin
+| | | | |___HEAD
+| | | | |___main
+| | |___tags
+|___.gitignore
+|___LICENSE
+|___output.txt
+|___README.md
+|___subnet
+| |___main.tf
+| |___outputs.tf
+| |___variables.tf
+|___terraform
+| |___.terraform
+| | |___modules
+| | | |___modules.json
+| |___main.tf
+| |___outputs.tf
+| |___variables.tf
+| |___vpc
+| | |___main.tf
+| | |___outputs.tf
+| | |___variables.tf
