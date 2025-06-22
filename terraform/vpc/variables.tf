@@ -28,3 +28,8 @@ variable "project_name" {
   default     = "eks-pipeline"
 }
 
+variable "igw_id" {
+  description = "Internet Gateway ID"
+  type        = string
+}
+
