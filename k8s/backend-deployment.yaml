@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: booking-backend
+  labels:
+    app: booking-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: booking-backend
+  template:
+    metadata:
+      labels:
+        app: booking-backend
+    spec:
+      containers:
+        - name: booking-backend
+          image: jugrans/booking-backend:latest
+          ports:
+            - containerPort: 3000

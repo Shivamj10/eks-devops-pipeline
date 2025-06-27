@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: booking-frontend
+  labels:
+    app: booking-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: booking-frontend
+  template:
+    metadata:
+      labels:
+        app: booking-frontend
+    spec:
+      containers:
+        - name: booking-frontend
+          image: jugrans/booking-frontend:latest
+          ports:
+            - containerPort: 80
